@@ -1,0 +1,24 @@
+# 🏆 Karel Battle Arena
+
+Karel Battle Arena is a competitive extension of the Python Karel framework that transforms traditional programming exercises into an interactive game.
+
+---
+
+## 🎮 Features
+- **Multiplayer Modes**: Human vs Human, Human vs AI, AI vs AI
+- **Competitive Scoring**: Track beepers collected and declare winners
+- **AI Strategies**: Includes BFS, DFS, and greedy algorithms
+- **Real-Time GUI**: Visualize Karel’s moves and scores live
+- **Replay System**: Save and replay matches for analysis
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- `pygame` (for GUI visualization)
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
