@@ -12,7 +12,7 @@ class GameGUI:
         pygame.draw.rect(self.screen, (0, 0, 255), (*self.karel_pos, 20, 20))
 
     def update(self):
-        # Draw Karel again (blue square)
+        # Clear and redraw Karel
         self.screen.fill((255, 255, 255))
         pygame.draw.rect(self.screen, (0, 0, 255), (*self.karel_pos, 20, 20))
 
